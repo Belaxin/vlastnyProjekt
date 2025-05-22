@@ -46,14 +46,95 @@
             <a href="#">Salem</a>
             <a href="#">Hilsboro</a>
         </div>
-        <section class ="beltView">
-            <section class  ="belt">
-                <section class="catCard">
+        <div class = "gradient">
+        <div class="show">
+            <div class="belt">
+            <div class="belt-item">
+                <img src="cat1.png" alt="">
+                <div class="beltText">
+                    <h2>MeiMei</h2>
+                    <p>Our cutest specimen indeed, MeiMei also known as sister Mei comes from the distant land of China. We rescued her after one of our fans notified us of her. 
+                        Her previous owner was a well known animal abuser so we decided to take her into our hands. She has no teeth but that brings no problem as she is resilient and 
+                        strong.</p>
+                    <a href="#">Adopt</a>
+                </div>
+            </div>
 
-                </section>
-            </section>
-        </section>
+            <div class="belt-item">
+            <img src="cat2.png" alt="">
+                <div class="beltText">
+                    <h2>MeiMei</h2>
+                    <p>Our cutest specimen indeed, MeiMei also known as sister Mei comes from the distant land of China. We rescued her after one of our fans notified us of her. 
+                        Her previous owner was a well known animal abuser so we decided to take her into our hands. She has no teeth but that brings no problem as she is resilient and 
+                        strong.</p>
+                    <a href="#">Adopt</a>
+                </div>
+            </div>
+
+            <div class="belt-item">
+            <img src="cat3.png" alt="">
+                <div class="beltText">
+                    <h2>MeiMei</h2>
+                    <p>Our cutest specimen indeed, MeiMei also known as sister Mei comes from the distant land of China. We rescued her after one of our fans notified us of her. 
+                        Her previous owner was a well known animal abuser so we decided to take her into our hands. She has no teeth but that brings no problem as she is resilient and 
+                        strong.</p>
+                    <a href="#">Adopt</a>
+                </div>
+            </div>
+
+            <div class="belt-item">
+            <img src="cat4.png" alt="">
+                <div class="beltText">
+                    <h2>MeiMei</h2>
+                    <p>Our cutest specimen indeed, MeiMei also known as sister Mei comes from the distant land of China. We rescued her after one of our fans notified us of her. 
+                        Her previous owner was a well known animal abuser so we decided to take her into our hands. She has no teeth but that brings no problem as she is resilient and 
+                        strong.</p>
+                    <a href="#">Adopt</a>
+                </div>
+            </div>
+
+            <div class="belt-item">
+            <img src="cat5.png" alt="">
+                <div class="beltText">
+                    <h2>MeiMei</h2>
+                    <p>Our cutest specimen indeed, MeiMei also known as sister Mei comes from the distant land of China. We rescued her after one of our fans notified us of her. 
+                        Her previous owner was a well known animal abuser so we decided to take her into our hands. She has no teeth but that brings no problem as she is resilient and 
+                        strong.</p>
+                    <a href="#">Adopt</a>
+                </div>
+            </div>
+
+            <div class="belt-item">
+            <img src="cat6.png" alt="">
+                <div class="beltText">
+                    <h2>MeiMei</h2>
+                    <p>Our cutest specimen indeed, MeiMei also known as sister Mei comes from the distant land of China. We rescued her after one of our fans notified us of her. 
+                        Her previous owner was a well known animal abuser so we decided to take her into our hands. She has no teeth but that brings no problem as she is resilient and 
+                        strong.</p>
+                    <a href="#">Adopt</a>
+                </div>
+            </div>
+
+
+            </div>
+        </div>
+        </div>
+        </div>
     </section>
+
+
+    <section class ="store">
+        <h1>Store</h1>
+        <div class = "products">
+            <div class="product-item">Item 1</div>
+            <div class="product-item">Item 2</div>
+            <div class="product-item">Item 3</div>
+            <div class="product-item">Item 4</div>
+            <div class="product-item">Item 5</div>
+            <div class="product-item">Item 6</div>
+        </div>
+    </section>
+
 </section>
 </body>
 </html>
