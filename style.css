@@ -39,19 +39,34 @@ a{
     font-size: 1.6rem;
 }
 .whiteButton{
-    padding: 8px 36px;
-    font-weight: bold;
+    display: flex;
+    flex-grow: initial;
+    padding: 4px 0px;
+    width: 180px;
+    align-items: center;
+    justify-content: center;
+    text-wrap: nowrap;
+    font-weight: 500;
     outline: black 1px solid;
     border-radius: 5px;
+    justify-self: flex-start;
+    align-self: flex-start;
     text-decoration: none;
     background-color: white;
     color: black;
 }
+
 .blackButton{
-    padding: 8px 36px;
-    font-weight: bold;
+    display: flex;
+    flex-grow: initial;
+    align-items: center;
+    padding: 4px 36px;
+    text-align: center;
+    text-wrap: nowrap;
+    font-weight: 500;
     outline: black 1px solid;
     border-radius: 5px;
+    justify-self: flex-start;
     text-decoration: none;
     background-color: black;
     color: white;
@@ -62,7 +77,6 @@ a{
 }
 
 .main{
-    height: 10000px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -164,7 +178,7 @@ nav a{
   }
   
   .gradient{
-    margin-top: 10px;
+    margin-top: 30px;
     position: relative;
     background-color: #EDEDED;
   }
@@ -188,81 +202,191 @@ nav a{
   }
   
 
-      .belt {
-        display: flex;
-        gap: 50px;
-        width: max-content;
-        -ms-overflow-style: auto; 
-        scrollbar-width: thin;    
-      }
-
-      
-      
-      .belt-item {
-        width: 368px;
-        height: 508px;
-        background-color: #E9E3EF;
-        border-radius: 50px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-        flex-direction: column;
-      }
-  
-  
-
-
-      .belt-item img{
-        position: relative;
-        width: 200px;
-        height: 200px;
-        bottom: 100px;
-      }
-      .beltText{
-        position: relative;
-        bottom: 100px;
-        width: 26.8rem;
-        text-align: center;
-        display: flex;
-        flex-direction: column;
-
-      }
-      .beltText h2{
-        margin-bottom: 10px;
-      }
-      .beltText p {
-        text-align: left;
-      }
-      .beltText a{
-        width: 6rem;
-        background-color: black;
-        font-size: 1.6rem;
-        color: white;
-        text-align: center;
-        padding: 10px 40px;
-        font-weight: bold;
-        border-radius: 5px;
-        text-decoration: none;
+    .belt {
+    display: flex;
+    gap: 50px;
+    width: max-content;
+    -ms-overflow-style: auto; 
+    scrollbar-width: thin;    
     }
+
     
-    .store{
-        width: 90%;
-        max-width: 1152px;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-    }
-
-    .products {
-        display: grid;
-        grid-template-columns: repeat(2, 1fr); /* 2 columns with equal width */
-        width: 100%;
-        text-align: center;
-        row-gap: 10px;
-        column-gap: 152px;
-    }
-
-    .product-item{
-        border: solid black 1px;
-    }
     
+    .belt-item {
+    width: 368px;
+    height: 508px;
+    background-color: #E9E3EF;
+    border-radius: 50px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    }
+
+
+
+
+    .belt-item img{
+    position: relative;
+    width: 200px;
+    height: 200px;
+    bottom: 100px;
+    }
+    .beltText{
+    position: relative;
+    bottom: 100px;
+    width: 26.8rem;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    }
+    .beltText h2{
+    margin-bottom: 10px;
+    }
+    .beltText p {
+    text-align: left;
+    }
+    .beltText a{
+    width: 6rem;
+    background-color: black;
+    font-size: 1.6rem;
+    color: white;
+    text-align: center;
+    padding: 10px 40px;
+    font-weight: bold;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.store{
+    width: 90%;
+    max-width: 1152px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 100%;
+    text-align: center;
+    row-gap: 25px;
+    column-gap: 152px;
+}
+
+.product-item{
+    background-color: #E9E3EF;
+    border-radius: 15px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.product-item img{
+    width: 13.2rem;
+    height: 13.2rem;
+}
+.product-item-text{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 98%;
+}
+
+.product-item-text-sub{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    width: 65%;
+    justify-content: space-between;
+}
+.product-item-text-sub h3{
+    color: #C38AFF;
+}
+
+#Locations{
+    padding-top: 96px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1152px;
+    min-width: 1100px;
+}
+.locationPlace{
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border-radius: 35px;
+    background-color: #E9E3EF;
+}
+.locationPlace img{
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    margin-right: 10px;
+}
+.locationPlaceText{
+    display: flex;
+    height: 98%;
+    width: 42%;
+    justify-content: flex-start;
+    align-content: space-between;
+    flex-direction: column;
+}
+
+.locationPlaceRight{
+    margin-bottom: 50px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    border-radius: 35px;
+    background-color: #E9E3EF;
+}
+.locationPlaceTextRight{
+    display: flex;
+    text-align: right;
+    height: 98%;
+    width: 42%;
+    justify-content: center;
+    align-content: space-between;
+    flex-direction: column; 
+}
+.locationPlaceTextRight .whiteButton{
+    align-self: flex-end;
+}
+.locationPlaceRight img{
+    padding: 10px;
+    width: 600px;
+    height: 400px;
+    margin-left: 10px;
+}
+
+.locationPlaceTextRight h2{
+    margin-bottom: 0;
+}
+.locationPlaceTextRight p{
+    margin-bottom: 10px;
+}
+.locationPlaceText h2{
+    margin-bottom: 0;
+}
+.locationPlaceText p{
+    margin-bottom: 10px;
+}
+footer{
+    margin-top: 245px;
+    height: 260px;
+    background-color: black;
+    width: 100%;
+}
