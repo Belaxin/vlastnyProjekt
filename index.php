@@ -206,33 +206,96 @@
         </div>
         <div class = "locationPlaceRight">
             <div class = "locationPlaceTextRight" >
-                <h2>Portland</h2>
-                <p>Welcome to Catty Portland, part of a network of shelters dedicated to helping cats find their forever homes. Located in the heart of 
-                    Portland, our shelter is a safe haven for abandoned, stray, and neglected cats. At Catty Portland, we’re passionate about giving 
-                    every cat the care and attention they need to thrive while waiting for their new families. Whether you're looking for a playful 
-                    kitten or a calm adult cat, we have a variety of cats available for adoption, each with their unique personality.  Our adoption 
-                    process is straightforward, and our friendly staff is here to guide you in finding the perfect match. In addition to adoption, we 
-                    offer grooming services, pet supplies, and educational resources to help new cat owners. We believe in promoting responsible pet 
-                    ownership and are committed to ensuring every cat’s well-being.  </p>
+                <h2>Salem</h2>
+                <p>Welcome to Catty Salem, a proud part of our network of shelters dedicated to helping cats in need. Located in the
+                     heart of Salem, our shelter provides a safe and loving environment for abandoned, stray, and neglected cats. At 
+                     Catty Salem, we offer a variety of cats available for adoption, from playful  kittens to calm adult cats, each 
+                     looking for their forever home. Our simple adoption process and friendly staff ensure you’ll find the perfect 
+                     feline companion.We also offer grooming services, pet supplies, and helpful resources for new cat owners. By 
+                     supporting Catty Salem—whether through adoption, donation, or volunteering—you help us continue providing essential
+                      care and support to cats in need. Visit us today and meet your new scrumpdidddilylumpsios furry friend at our Salem location!  </p>
                 <a href="#"  class = "whiteButton" >About</a>
             </div>
-            <img src="location1.png" alt="Portland">
+            <img src="location2.png" alt="Salem">
         </div>
         <div class = "locationPlace">
-            <img src="location1.png" alt="Portland">
+            <img src="location3.png" alt="Hilsboro">
             <div class = "locationPlaceText">
-                <h2>Portland</h2>
-                <p>Welcome to Catty Portland, part of a network of shelters dedicated to helping cats find their forever homes. Located in the heart of 
-                    Portland, our shelter is a safe haven for abandoned, stray, and neglected cats. At Catty Portland, we’re passionate about giving 
-                    every cat the care and attention they need to thrive while waiting for their new families. Whether you're looking for a playful 
-                    kitten or a calm adult cat, we have a variety of cats available for adoption, each with their unique personality.  Our adoption 
-                    process is straightforward, and our friendly staff is here to guide you in finding the perfect match. In addition to adoption, we 
-                    offer grooming services, pet supplies, and educational resources to help new cat owners. We believe in promoting responsible pet 
-                    ownership and are committed to ensuring every cat’s well-being.  </p>
+                <h2>Hilsboro</h2>
+                <p>Welcome to Catty Hillsboro, part of our network of shelters committed to giving cats a second chance. Located in 
+                    Hillsboro, our shelter provides a safe space for abandoned, stray, and neglected cats while they wait for their 
+                    forever homes. We have a variety of cats available for adoption, from playful kittens to affectionate adults, each 
+                    ready to find their perfect match. Our easy adoption process and caring staff are here to help guide you every step
+                     of the way.At Catty Hillsboro, we also offer grooming services, pet supplies, and valuable resources for new cat 
+                     owners. Your support—whether through adopting, donating, or volunteering—helps us continue our mission to care for
+                      cats in need. Stop by our Hillsboro location today and meet your new  feline companion!  </p>
                 <a href="#"  class = "whiteButton" >About</a>
             </div>
         </div>
     </section>
+
+    <section id="Blog">
+
+
+    
+    </section>
+
+
+        <section class="Blog" id = "#">
+            <h1>Blog</h1>
+        <div class = "gradientBlog">
+        <div class="showBlog">
+            <div class="beltBlog">
+
+            <a href = "https://clickhole.com/tag/cats/"> 
+                <div class="belt-itemBlog">
+                    <img src="blog1.png" alt="">
+                    <h3>Cuddling cats beneficial</h3>
+                    <p>A study suggests that cuddling cats could prevent stress in 100% of cases</p>
+                </div>
+            </a>
+            <a href = "https://clickhole.com/softening-their-stance-peta-has-conceded-that-with-everything-going-on-in-the-world-right-now-if-you-want-to-watch-a-cockfight-to-blow-off-some-steam-you-can-go-right-ahead/">
+                <div class="belt-itemBlog">
+                        <img src="blog2.png" alt="">
+                    <h3>Cocks on the rise</h3>
+                    <p>I don't mean to scare anyone but they're coming, search your immeadiate location for shelter.</p>
+            </div>
+            </a>
+            <a href= "https://clickhole.com/tag/a-basket-of-chihuahuas-not-pictured-in-this-article-fyi-this-list-features-far-less-pleasant-dogs/">
+                <div class="belt-itemBlog">
+                    <img src="blog4.png" alt="">
+                    <h3>Chihuahua's cute</h3>
+                    <p>Chihuahuas' declared legally the cutest out of any of the myriad of dog breeds.</p>
+                </div>
+            </a>
+            <a href= "https://avibirds.com/hawks-in-utah/">
+                <div class="belt-itemBlog">
+                    <img src="blog3.png" alt="">
+                    <h3>Top 10 hawks in Utah</h3>
+                    <p>Utah is home to a diverse range of hawk species, making it a prime location for birdwatching enthusiasts</p>
+                </div>
+            </a>
+            <a href = "https://elingua.es/pizza-what-could-go-wrong-right/">
+                <div class="belt-itemBlog">
+                    <img src="blog5.png" alt="">
+                    <h3>This pizza may be delicious</h3>
+                    <p>You have to try it though, I'm not able to taste it as I am text. You know that text can't taste food, right?</p>
+                </div>
+            </a>
+            <a href = "https://www.ajodo.org/article/S0889-5406(19)30721-8/fulltext">
+                <div class="belt-itemBlog">
+                    <img src="blog6.png" alt="">
+                    <h3>Wild hyrax frenzy</h3>
+                    <p>A wild specimen of procavia capnesis has gone on a rampage and murdered 15 children in nearby village.</p>
+                </div>
+            </a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+
+
 
     <footer>
         catty
