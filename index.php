@@ -1,29 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel= "stylesheet" href="style.css"> 
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-</head>
-<body>
+<?php
+session_start();
+include('includes/header.php');
+?>
 <section class ="main">
-    <header>
-        <section class= "headerContainer">
-            <img src="Logo.png" alt="logo">
-            <nav>
-                <a href="index.php" class = "active">Home</a>
-                <a href="#Locations">Location</a>
-                <a href="#Store">Store</a>
-                <a href="#About" class = "Active">About</a>
-                <a href="Cart.php">Cart</a>
-            </nav>
-        </section>
-    </header>
-
     <section class = "hero" id = "About">
         <section class = "heroText">
             <h2>Oregon’s oldest nonprofit.</h2>
@@ -39,12 +18,12 @@
         <div class = "imageHero"></div>
     </section>
 
-    <section class="adoptions" id = "#">
+    <section class="adoptions" id = "Adopt">
         <h1>Available cuties</h1>
         <div>
-            <a href="#" class = "active">Portland</a>
-            <a href="#">Salem</a>
-            <a href="#">Hilsboro</a>
+            <a href="#Portland">Portland</a>
+            <a href="#Salem">Salem</a>
+            <a href="#Hilsboro">Hilsboro</a>
         </div>
         <div class = "gradient">
         <div class="show">
@@ -132,7 +111,7 @@
                     <h3>Tick-away spray</h3>
                     <div class="product-item-text-sub">
                         <h3>$10</h3>
-                        <a href="#"  class = "blackButton" >Add to cart</a>
+                        <a href="Cart.php?action=add&name=Tick-away+spray&price=10&image=product3.png"  class = "blackButton" >Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -142,7 +121,7 @@
                     <h3>Kibble 5kg</h3>
                     <div class="product-item-text-sub">
                         <h3>$20</h3>
-                        <a href="#"  class = "blackButton" >Add to cart</a>
+                        <a href="Cart.php?action=add&name=Kibble+5kg&price=20&image=product2.png"  class = "blackButton" >Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -152,7 +131,7 @@
                     <h3>Nail clippers</h3>
                     <div class="product-item-text-sub">
                         <h3>$40</h3>
-                        <a href="#"  class = "blackButton" >Add to cart</a>
+                        <a href="Cart.php?action=add&name=Nail+clippers&price=40&image=product1.png"  class = "blackButton" >Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -162,7 +141,7 @@
                     <h3>Kibble bowl</h3>
                     <div class="product-item-text-sub">
                         <h3>$15</h3>
-                        <a href="#"  class = "blackButton" >Add to cart</a>
+                        <a href="Cart.php?action=add&name=Kibble+bowl&price=15&image=product6.png"  class = "blackButton" >Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -172,7 +151,7 @@
                     <h3>Play pole</h3>
                     <div class="product-item-text-sub">
                         <h3>$50</h3>
-                        <a href="#"  class = "blackButton" >Add to cart</a>
+                        <a href="Cart.php?action=add&name=Play+pole&price=50&image=product5.png"  class = "blackButton" >Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -182,7 +161,7 @@
                     <h3>Kitty litter 10kg</h3>
                     <div class="product-item-text-sub">
                         <h3>$10</h3>
-                        <a href="#"  class = "blackButton" >Add to cart</a>
+                        <a href="Cart.php?action=add&name=Kitty+liter+10kg&price=10&image=product4.png"  class = "blackButton" >Add to cart</a>
                     </div>
                 </div>
             </div>
@@ -190,7 +169,7 @@
     </section>
     <section id="Locations">
         <h1>Locations</h1>
-        <div class = "locationPlace">
+        <div class = "locationPlace" id = "Portland">
             <img src="location1.png" alt="Portland">
             <div class = "locationPlaceText">
                 <h2>Portland</h2>
@@ -201,10 +180,10 @@
                     process is straightforward, and our friendly staff is here to guide you in finding the perfect match. In addition to adoption, we 
                     offer grooming services, pet supplies, and educational resources to help new cat owners. We believe in promoting responsible pet 
                     ownership and are committed to ensuring every cat’s well-being.  </p>
-                <a href="#"  class = "whiteButton" >About</a>
+                <a href="#Adopt"  class = "whiteButton" >About</a>
             </div>
         </div>
-        <div class = "locationPlaceRight">
+        <div class = "locationPlaceRight" id = "Salem">
             <div class = "locationPlaceTextRight" >
                 <h2>Salem</h2>
                 <p>Welcome to Catty Salem, a proud part of our network of shelters dedicated to helping cats in need. Located in the
@@ -214,11 +193,11 @@
                      feline companion.We also offer grooming services, pet supplies, and helpful resources for new cat owners. By 
                      supporting Catty Salem—whether through adoption, donation, or volunteering—you help us continue providing essential
                       care and support to cats in need. Visit us today and meet your new scrumpdidddilylumpsios furry friend at our Salem location!  </p>
-                <a href="#"  class = "whiteButton" >About</a>
+                <a href="#Adopt"  class = "whiteButton" >About</a>
             </div>
             <img src="location2.png" alt="Salem">
         </div>
-        <div class = "locationPlace">
+        <div class = "locationPlace" id = "Hilsboro">
             <img src="location3.png" alt="Hilsboro">
             <div class = "locationPlaceText">
                 <h2>Hilsboro</h2>
@@ -229,7 +208,7 @@
                      of the way.At Catty Hillsboro, we also offer grooming services, pet supplies, and valuable resources for new cat 
                      owners. Your support—whether through adopting, donating, or volunteering—helps us continue our mission to care for
                       cats in need. Stop by our Hillsboro location today and meet your new  feline companion!  </p>
-                <a href="#"  class = "whiteButton" >About</a>
+                <a href="#Adopt"  class = "whiteButton" >About</a>
             </div>
         </div>
     </section>
@@ -239,7 +218,7 @@
 
     
     </section>
-
+    <a href = "#" class = "scrollButton"><img src="scrollUp.png" alt=""></a>
 
         <section class="Blog" id = "#">
             <h1>Blog</h1>
@@ -295,11 +274,5 @@
         </div>
     </section>
 
-
-
-    <footer>
-        catty
-    </footer>
 </section>
-</body>
-</html>
+<?php include('includes/footer.php')?>
