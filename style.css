@@ -159,14 +159,13 @@ nav a{
     justify-content: space-between;
     align-items: center;
     max-width: 1152px;
-    min-width: 1100px;
+    min-width: 1000px;
 }
 .heroText{
     width: 566px;
 }
 .imageHero{
     width: 515px;
-    min-width: 515px;
     height: 420px;
     background-image: url("imageHero.png");
     background-repeat: repeat;
@@ -176,7 +175,6 @@ nav a{
 
 .adoptions{
     padding-bottom: 96px;
-    width: 90%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -291,7 +289,7 @@ nav a{
 }
 
 .store{
-    width: 90%;
+    width: 100%;
     max-width: 1152px;
     display: flex;
     flex-direction: column;
@@ -362,6 +360,7 @@ nav a{
 .locationPlace img{
     padding: 10px;
     width: 600px;
+        border-radius: 100px;
     height: 400px;
     margin-right: 10px;
 }
@@ -401,6 +400,7 @@ nav a{
 }
 .locationPlaceRight img{
     padding: 10px;
+    border-radius: 100px;
     width: 600px;
     height: 400px;
     margin-left: 10px;
@@ -654,4 +654,327 @@ footer img{
     margin-top: auto;
     margin-bottom: 30px;
     column-gap: 8rem;
+}
+
+@media (max-width: 1200px)  {
+    .adoptions{
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+        .gradient{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .show{
+        min-width: 100%;
+    }
+    .scrollButton{
+        display: none;
+    }
+    .product-item-text-sub a{
+        width: 150px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .hero{
+        min-width: 800px;
+    }
+    .imageHero{
+            min-width: 300px;
+           width: 300px; 
+    }
+    .adoptions{
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .gradient{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .show{
+        min-width: 100%;
+    }
+    
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product-item{
+        justify-content: space-between;
+    }
+    .product-item-text{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 700px;
+    }
+    .product-item-text-sub{
+        width: 250px;
+        margin-right: 20px;
+    }
+    #Locations{
+        min-width: 100%;
+        width: 100%;
+    }
+    .locationPlace{
+        align-items: center;
+        justify-content: center;
+    }
+        .locationPlace img{
+        object-fit: cover;
+        width: 500px;
+        padding: 0px;
+    }
+        .locationPlaceRight{
+        align-items: center;
+        justify-content: center;
+    }
+        .locationPlaceRight img{
+        object-fit: cover;
+        width: 500px;
+        padding: 0px;
+    }
+        #footerSect{
+        max-width: 900px;
+    }
+        .productsCart{
+        column-gap: 3px;
+    }
+}
+
+
+@media (max-width: 932px) {
+        .hero{
+        min-width: 600px;
+    }
+    .imageHero{
+            min-width: 300px;
+           width: 300px; 
+    }
+    .adoptions{
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .gradient{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .show{
+        min-width: 100%;
+    }
+    
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product-item{
+        justify-content: space-between;
+    }
+    .product-item-text{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+        min-width: 456px;
+    }
+    .product-item-text-sub{
+        width: 250px;
+        margin-right: 20px;
+    }
+    #Locations{
+        min-width: 100%;
+        width: 100%;
+    }
+    .locationPlace{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .locationPlaceText{
+        width: 95%;
+    }
+        .locationPlace img{
+        object-fit: cover;
+        width: 95%;
+        padding: 0px;
+    }
+        .locationPlaceRight{
+            flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+        .locationPlaceRight img{
+        object-fit: cover;
+        width: 95%;
+        padding: 0px;
+    }
+    .locationPlaceTextRight{
+        text-align: left;
+        width: 95%;
+    }
+    .locationPlaceTextRight .whiteButton{
+        align-self: flex-start;
+    }
+        #footerSect{
+        max-width: 900px;
+    }
+        .productsCart{
+        column-gap: 3px;
+    }
+}
+
+
+@media (max-width: 768px) {
+    header{
+        height: 100px;
+        place-items: center;
+    }
+    .headerContainer{
+        flex-direction: column;
+    }
+    nav{
+        margin-top: 5px;
+        width: 100%;
+        flex-direction: row;
+        max-width: 410px;
+        
+    }
+        .hero{
+        min-width: 400px;
+        flex-direction: column-reverse;
+    }
+    .imageHero{
+            min-width: 300px;
+           width: 100%; 
+    }
+    .heroText{
+        width: 100%;
+        min-width: 0;
+    }
+    .adoptions{
+        min-width: 100%;
+        max-width: 100%;
+        width: 100%;
+    }
+    .gradient{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .show{
+        min-width: 100%;
+    }
+    
+    .products {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .product-item{
+        justify-content: space-between;
+    }
+    .product-item img{
+        width: 100px;
+        height: 100px;
+    }
+    .product-item-text{
+        flex-direction: row;
+        justify-content: space-between;
+        width: 60%;
+        min-width: 250px;
+    }
+    .product-item-text h3{
+        font-size: 2em;
+        text-align: left;
+    }
+        .product-item .blackButton{
+            font-size: 1em;
+            width: 60px;
+        }
+    
+    .product-item-text-sub{
+        min-width: 100px;
+        width: 100px;
+        margin-right: 20px;
+    }
+    #Locations{
+        min-width: 100%;
+        width: 100%;
+    }
+    .locationPlace{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .locationPlaceText{
+        width: 95%;
+    }
+        .locationPlace img{
+        object-fit: cover;
+        width: 95%;
+        padding: 0px;
+    }
+        .locationPlaceRight{
+            flex-direction: column-reverse;
+        align-items: center;
+        justify-content: center;
+    }
+        .locationPlaceRight img{
+        object-fit: cover;
+        width: 95%;
+        padding: 0px;
+    }
+    .locationPlaceTextRight{
+        text-align: left;
+        width: 95%;
+    }
+    .locationPlaceTextRight .whiteButton{
+        align-self: flex-start;
+    }
+        #footerSect{
+        max-width: 900px;
+    }
+        .productsCart{
+            margin-left: 10px;
+        column-gap: 3px;
+    }
+
+    .productsCart h3, h4{
+        font-size: 1em;
+    }
+    .productImages{
+        width: 95px;   
+    }
+    .productImage{
+        width: 91px;
+        height: 58px;
+    }
+    .productImage img{
+        width: 50px;
+        height: 50px;
+    }
+    .productNames{
+        width: 100px;
+    }
+    .productName{
+        width: 96px;
+        height: 58px;
+    }
+    .productQuantities{
+        width: 95px;   
+    }
+    .productQuantity{
+        width: 91px;
+        height: 58px;
+    }
+    .productPrices{
+        width: 100px;
+    }
+    .productPrice{
+        width: 96px;
+        height: 58px;
+    }
+    #cartButtons{
+        width: 400px;
+    }
+    #cartHead h2{
+        text-align: center;
+    }
 }
