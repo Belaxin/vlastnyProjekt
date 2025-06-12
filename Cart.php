@@ -59,7 +59,7 @@ include('includes/header.php')?>
                 <?php endforeach; ?>
         </div>
         <div class = "productQuantities">
-            <h3 class = "productDesc">Ammount</h3>
+            <h3 class = "productDesc">Amount</h3>
                 <?php foreach ($_SESSION['Cart'] as $name => $item): ?>
                     <div class = "productQuantity">
                         <h4><?php echo($item['quantity'])?></h4>
