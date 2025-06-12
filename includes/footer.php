@@ -2,7 +2,7 @@
     <section id = "footerSect">
         <div id = "footerText">
             <img src="LogoFooter.png" alt="">
-            <p>© 2023 - 2024 Catty</p>
+            <p>© 2023 - <br> 2024 Catty</p>
             <div id = "socials">
                 <a href="https://www.facebook.com/Dr.House.H.M.D/?locale=sk_SK">
                     <img src="soc1.png" alt="">
@@ -10,6 +10,7 @@
                 <a href="https://www.instagram.com/belaxin_/">
                     <img src="soc2.png" alt="">
                 </a>
+                <br>
                 <a href="https://www.youtube.com/watch?v=uWsz5xMJF6k&ab_channel=IrakliDgebuadze">
                     <img src="soc3.png" alt="">
                 </a>

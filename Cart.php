@@ -39,7 +39,7 @@ include('includes/header.php')?>
 <section id = "productSection">
 <?php if (empty($_SESSION['Cart'])): ?>
         <h2>Cart is empty.</h2>
-<?php else: ?>
+<?php else: ?> 
 
     <section class = "productsCart">
         <div class = "productImages">
