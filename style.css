@@ -765,6 +765,9 @@ footer img{
         .productsCart{
         column-gap: 3px;
     }
+    #cartHead h2{
+        max-width: 909px;
+    }
 }
 
 
@@ -889,7 +892,8 @@ footer img{
         width: 400px;
     }
     #cartHead h2{
-        text-align: center;
+        max-width: 595px;
+    
     }
 }
 
@@ -1039,7 +1043,6 @@ footer img{
         max-width: 900px;
     }
         .productsCart{
-            margin-left: 10px;
         column-gap: 3px;
     }
 
@@ -1098,7 +1101,7 @@ footer img{
         width: 400px;
     }
     #cartHead h2{
-        text-align: center;
+        max-width: 400px;
     }
 }
 
@@ -1314,7 +1317,7 @@ footer img{
         width: 250px;
     }
     #cartHead h2{
-        text-align: center;
+        max-width: 315px;
     }
     .purpleButton{
         width: 102px;
