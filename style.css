@@ -768,6 +768,9 @@ footer img{
     #cartHead h2{
         max-width: 909px;
     }
+    #productSection h2 {
+        max-width: 909px;
+    }
 }
 
 
@@ -894,6 +897,9 @@ footer img{
     #cartHead h2{
         max-width: 595px;
     
+    }
+    #productSection h2 {
+        max-width: 595px;
     }
 }
 
@@ -1101,6 +1107,9 @@ footer img{
         width: 400px;
     }
     #cartHead h2{
+        max-width: 400px;
+    }
+    #productSection h2 {
         max-width: 400px;
     }
 }
@@ -1317,6 +1326,9 @@ footer img{
         width: 250px;
     }
     #cartHead h2{
+        max-width: 315px;
+    }
+    #productSection h2 {
         max-width: 315px;
     }
     .purpleButton{
